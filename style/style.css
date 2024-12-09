@@ -333,6 +333,12 @@ footer a:hover{
     background-color: var(--main);
     transition: background 0.9s ease-in-out;
 }
+.social a i{
+    font-size: 1.9rem;
+    /* padding: 10px;
+    align-items: center;
+    justify-content: center; */
+}
 .social .bx:hover{
     background: var(--btn2);
 }
