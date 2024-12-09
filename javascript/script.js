@@ -15,7 +15,7 @@ menu.classList.remove("active")
 })
 window.addEventListener("scroll", ()=>{
     menu.classList.remove("active")
-    btnBurger.classList.toggle("bx-x")
+    // btnBurger.classList.toggle("bx-x")
 });
 window.addEventListener("scroll", ()=>{
 nav.classList.toggle("active", window.scrollY>0)
@@ -33,9 +33,6 @@ links.forEach(link=>{
    
 })
 }
-
-
-
 
 
     })
