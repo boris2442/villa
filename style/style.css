@@ -345,8 +345,8 @@ footer a:hover{
 .copy{
     padding: 2rem;
     text-align: center;
-font-size: 1rem;
-    color:var(--btn)
+font-size: 1.4rem;
+    color:var(--btn);
 }
 /* partie responsive */
 @media screen and (max-width:1080px) {
@@ -388,6 +388,12 @@ font-size: 1rem;
         position: sticky;
         display: flex;
         top: 0px;
+    }
+    .footer-container{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
      nav ul{
