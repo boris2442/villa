@@ -137,6 +137,7 @@ color:var(--bg);
 }
 .about .about-img img{
     border-radius: 5rem 5rem 0 5rem;
+    margin-left: 25px;
 }
 .about-content span{
     color:var(--main);
