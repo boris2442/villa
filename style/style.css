@@ -166,11 +166,11 @@ color:var(--bg);
     padding: 20px;
     background: var(--bg);
     border-radius: 7px;
-    /* box-shadow: var(--shadow); */
+  
     text-align: justify;
     box-shadow: 0px 3px 8px var(--text);
-    /* border: 1px solid red; */
-    transition: 1s ease-in-out;
+
+    transition: 0.6s ease-in-out;
 }
 .services .box:hover{
     color:var(--bg);
@@ -190,7 +190,7 @@ color:var(--bg);
 }
 
 .services p{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 /* locations */
 
@@ -429,4 +429,10 @@ font-size: 1.4rem;
     gap: 50px; 
     margin-top: 200px; 
     
+}
+
+.scrool{
+    background-color: var(--btn);
+    color:var(--bg);
+    font-size: 1.5rem;
 }

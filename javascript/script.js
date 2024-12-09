@@ -38,4 +38,12 @@ links.forEach(link=>{
 
     })
 }
-window.addEventListener("scroll", scrollActive);
+// window.addEventListener("scroll", scrollActive);
+const header=document.querySelector("header");
+window.addEventListener("scroll", ()=>{
+    if(window.scrollY>100){
+        header.classList.add("scrool")
+    }else{
+        header.classList.remove("scrool")
+    }
+});
