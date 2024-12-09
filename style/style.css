@@ -103,6 +103,7 @@ color:var(--bg);
 }
 
 /* section menu */
+
 .home{
     margin-top: 6rem;
     background-repeat: no-repeat;
@@ -129,7 +130,9 @@ color:var(--bg);
     width: 150px;
     cursor: pointer;
 }
+
 /*section about */
+
 .about{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, auto));
@@ -265,6 +268,9 @@ color:var(--bg);
 
 
 /* newsletter-container */
+
+
+
 .newsletter{
     display: flex;
     flex-direction: column;
@@ -294,6 +300,7 @@ padding: 10px;
 } 
 
 /* footer */
+
 footer{
     background: var(--btn);
     color:var(--bg);
@@ -335,9 +342,7 @@ footer a:hover{
 }
 .social a i{
     font-size: 1.9rem;
-    /* padding: 10px;
-    align-items: center;
-    justify-content: center; */
+  
 }
 .social .bx:hover{
     background: var(--btn2);
@@ -348,7 +353,16 @@ footer a:hover{
 font-size: 1.4rem;
     color:var(--btn);
 }
+
+
+
+
 /* partie responsive */
+
+
+
+
+
 @media screen and (max-width:1080px) {
     .container{
         margin-right: 0.5rem;
@@ -402,29 +416,17 @@ font-size: 1.4rem;
         right: -100%;
         padding-top: 30px;
         box-shadow: -2px 0px 5px reba(0, 0, 0, 0.2);
-        /* width: 100%; */
-        /* right: 0; */
-        /* background: var(--bg); */
-        /* border-left: 1px solid var(--main); */
+      
        transition: 1s ease-in-out;
      }
-     /* nav ul:active{
-        right: 0;
-     } */
+   
 }
 .active{
     right: 20px;
     z-index: 100000;
     background: none;
-    /* height: 100vh; */
+
     gap: 50px; 
     margin-top: 200px; 
-    /* padding-top: 40px; */
-}
-.burger:hover{
-    /* top: 30px; */
-    background: none;
-
-    /* position: fixed;
-    z-index: 100000; */
+    
 }
