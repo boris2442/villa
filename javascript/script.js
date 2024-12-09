@@ -5,12 +5,12 @@ const menu=document.querySelector(".navigation");
 const links=document.querySelectorAll(".navigation a");
 btnBurger.addEventListener("click", ()=>{
     menu.classList.toggle("active")
-    btnBurger.classList.toggle("bx-x")
+    // btnBurger.classList.toggle("bx-x")
 });
 links.forEach(link  =>{
     link.addEventListener("click",()=>{
 menu.classList.remove("active")
-btnBurger.classList.remove("bx-x")
+// btnBurger.classList.remove("bx-x")
     });
 })
 window.addEventListener("scroll", ()=>{

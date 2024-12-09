@@ -394,12 +394,15 @@ font-size: 1rem;
         padding-top: 30px;
         box-shadow: -2px 0px 5px reba(0, 0, 0, 0.2);
         /* width: 100%; */
-        right: 0;
+        /* right: 0; */
         /* background: var(--bg); */
         /* border-left: 1px solid var(--main); */
        transition: 1s ease-in-out;
      }
-     nav ul:active{
+     /* nav ul:active{
         right: 0;
-     }
+     } */
+}
+.active{
+    right: 0;
 }
