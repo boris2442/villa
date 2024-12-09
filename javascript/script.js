@@ -21,29 +21,39 @@ window.addEventListener("scroll", ()=>{
 // window.addEventListener("scroll", ()=>{
 // nav.classList.toggle("active", window.scrollY>0)
 // });
-const scrollActive=()=>{
-    sections.forEach(section=>{
-        let top=window.scrollY;
-        let offset=section.offfsetTop-100;
-        let height=section.offsetHeight;
-        let id=section.getAttribute("id");
+// const scrollActive=()=>{
+//     sections.forEach(section=>{
+//         let top=window.scrollY;
+//         let offset=section.offfsetTop-100;
+//         let height=section.offsetHeight;
+//         let id=section.getAttribute("id");
 
-if(top>=offset&& top<offset+height){
-links.forEach(link=>{
-   link.classList.remove("active")
+// if(top>=offset&& top<offset+height){
+// links.forEach(link=>{
+//    link.classList.remove("active")
    
-})
-}
+// })
+// }
 
 
-    })
-}
+//     })
+// }
 // window.addEventListener("scroll", scrollActive);
-const header=document.querySelector("header");
-window.addEventListener("scroll", ()=>{
-    if(window.scrollY>100){
+const header=document.querySelector("nav");
+const navLinks = document.querySelectorAll('nav > ul > li > a');
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 100){
         header.classList.add("scrool")
-    }else{
+        navLinks.forEach(link=>{
+            link.style.color="var(--bg)"
+        })
+       
+    }
+    else{
         header.classList.remove("scrool")
+        navLinks.forEach(link=>{
+            link.style.color="var(--btn)"
+        })
+
     }
 });

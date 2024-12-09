@@ -433,6 +433,7 @@ font-size: 1.4rem;
 
 .scrool{
     background-color: var(--btn);
-    color:var(--bg);
+    /* color:var(--bg); */
+transition: 0.5s ease-in-out;
     font-size: 1.5rem;
 }
