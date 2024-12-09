@@ -403,6 +403,7 @@ font-size: 1.4rem;
         display: flex;
         top: 0px;
     }
+    
     .footer-container{
         margin: 0 auto;
         display: flex;
@@ -428,12 +429,12 @@ font-size: 1.4rem;
 
     gap: 50px; 
     margin-top: 200px; 
-    
+    top: 20%;
 }
 
 .scrool{
     background-color: var(--btn);
  
 transition: 0.5s ease-in-out;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }

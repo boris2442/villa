@@ -46,9 +46,9 @@ window.addEventListener("scroll", () => {
     if(window.scrollY > 100){
         header.classList.add("scrool")
         navLinks.forEach(link=>{
-            link.style.color="var(--bg)"
+            link.style.color="black"
         })
-        btnBurger.style.color="#fff"
+        btnBurger.style.color="var(--bg)"
     }
     else{
         header.classList.remove("scrool")
