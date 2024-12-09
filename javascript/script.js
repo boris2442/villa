@@ -5,6 +5,7 @@ const menu=document.querySelector(".navigation");
 const links=document.querySelectorAll(".navigation a");
 btnBurger.addEventListener("click", ()=>{
     menu.classList.toggle("active")
+    // menu.classList.add(burger)
     // btnBurger.classList.toggle("bx-x")
 });
 links.forEach(link  =>{
@@ -17,9 +18,9 @@ window.addEventListener("scroll", ()=>{
     menu.classList.remove("active")
     // btnBurger.classList.toggle("bx-x")
 });
-window.addEventListener("scroll", ()=>{
-nav.classList.toggle("active", window.scrollY>0)
-});
+// window.addEventListener("scroll", ()=>{
+// nav.classList.toggle("active", window.scrollY>0)
+// });
 const scrollActive=()=>{
     sections.forEach(section=>{
         let top=window.scrollY;

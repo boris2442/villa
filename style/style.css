@@ -385,6 +385,9 @@ font-size: 1rem;
 @media screen and (max-width:780px) {
     #burger-menu{
         display: block;
+        position: sticky;
+        display: flex;
+        top: 0px;
     }
     
      nav ul{
@@ -404,5 +407,18 @@ font-size: 1rem;
      } */
 }
 .active{
-    right: 0;
+    right: 20px;
+    z-index: 100000;
+    background: none;
+    /* height: 100vh; */
+    gap: 50px; 
+    margin-top: 200px; 
+    /* padding-top: 40px; */
+}
+.burger:hover{
+    /* top: 30px; */
+    background: none;
+
+    /* position: fixed;
+    z-index: 100000; */
 }
