@@ -3,6 +3,8 @@ const btnBurger =document.querySelector("#burger-menu");
 const nav=document.querySelector("nav");
 const menu=document.querySelector(".navigation");
 const links=document.querySelectorAll(".navigation a");
+const header=document.querySelector("nav");
+const navLinks = document.querySelectorAll('nav > ul > li > a');
 btnBurger.addEventListener("click", ()=>{
     menu.classList.toggle("active")
     // menu.classList.add(burger)
@@ -39,21 +41,21 @@ window.addEventListener("scroll", ()=>{
 //     })
 // }
 // window.addEventListener("scroll", scrollActive);
-const header=document.querySelector("nav");
-const navLinks = document.querySelectorAll('nav > ul > li > a');
+
 window.addEventListener("scroll", () => {
     if(window.scrollY > 100){
         header.classList.add("scrool")
         navLinks.forEach(link=>{
             link.style.color="var(--bg)"
         })
-       
+        btnBurger.style.color="#fff"
     }
     else{
         header.classList.remove("scrool")
         navLinks.forEach(link=>{
-            link.style.color="var(--btn)"
+            link.style.color="var(--bg)"
         })
+          btnBurger.style.color="var(--btn)"
 
     }
 });
