@@ -53,7 +53,7 @@ window.addEventListener("scroll", () => {
     else{
         header.classList.remove("scrool")
         navLinks.forEach(link=>{
-            link.style.color="var(--bg)"
+            link.style.color="var(--btn)"
         })
           btnBurger.style.color="var(--btn)"
 
