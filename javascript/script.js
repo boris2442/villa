@@ -20,27 +20,6 @@ window.addEventListener("scroll", ()=>{
     menu.classList.remove("active")
     // btnBurger.classList.toggle("bx-x")
 });
-// window.addEventListener("scroll", ()=>{
-// nav.classList.toggle("active", window.scrollY>0)
-// });
-// const scrollActive=()=>{
-//     sections.forEach(section=>{
-//         let top=window.scrollY;
-//         let offset=section.offfsetTop-100;
-//         let height=section.offsetHeight;
-//         let id=section.getAttribute("id");
-
-// if(top>=offset&& top<offset+height){
-// links.forEach(link=>{
-//    link.classList.remove("active")
-   
-// })
-// }
-
-
-//     })
-// }
-// window.addEventListener("scroll", scrollActive);
 
 window.addEventListener("scroll", () => {
     if(window.scrollY > 100){
@@ -59,3 +38,16 @@ window.addEventListener("scroll", () => {
 
     }
 });
+
+// partie scroll reveal
+
+const sr=ScrollReveal({
+    duration:1500,
+    origin:"top",
+    distance:"30px",
+    reset:true
+  })
+  
+  sr.reveal(".home, .copy, .footer-text, .container, .services, .about-container, ", {interval:200})
+  
+  
