@@ -42,12 +42,12 @@ window.addEventListener("scroll", () => {
 // partie scroll reveal
 
 const sr=ScrollReveal({
-    duration:1500,
+    duration:1000,
     origin:"top",
     distance:"30px",
     reset:true
   })
   
-  sr.reveal(".home, .copy, .footer-text, .container, .services, .about-container, ", {interval:200})
+  sr.reveal(".home, .copy, .footer-text, .container, .services, .about-container", {interval:200})
   
   
