@@ -17,6 +17,10 @@
 }
 img{
     width: 100%;
+    transition: .5s ease-in-out;
+}
+img:hover{
+    filter:grayscale(100%);
 }
 body{
 background-color: var(--bg);
