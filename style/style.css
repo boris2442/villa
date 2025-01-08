@@ -52,17 +52,17 @@ section{
 nav{
     position: sticky;
     top: 0;
+    z-index: 10;
     width: 100%;
     padding: 10px 15px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 10;
   
 
 }
-nav:active{
+nav.active2{
     background: var(--bg);
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2) ;
     border-bottom: 1px solid var(--main);
@@ -424,6 +424,8 @@ font-size: 1.4rem;
         flex-direction: column;
         position: absolute;
         right: -100%;
+        top: 80px;
+        z-index: 10;
         padding-top: 30px;
         box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
       
@@ -431,13 +433,14 @@ font-size: 1.4rem;
      }
    
      .active2{
-         right: 20px;
-        
-         background: red;
-     position: absolute;
-         gap: 50px; 
-         margin-top: 200px; 
+         position: absolute;
          top: 80px;
+         height: 500px;
+         right: 20px;
+     
+         background: red;
+         /* gap: 50px;  */
+         /* margin-top: 200px;  */
      }
 }
 
