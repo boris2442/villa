@@ -6,7 +6,7 @@ const links=document.querySelectorAll(".navigation a");
 const header=document.querySelector("nav");
 const navLinks = document.querySelectorAll('nav > ul > li > a');
 btnBurger.addEventListener("click", ()=>{
-    menu.classList.toggle("active")
+    menu.classList.add("active2")
     // menu.classList.add(burger)
     // btnBurger.classList.toggle("bx-x")
 });
