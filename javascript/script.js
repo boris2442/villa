@@ -1,6 +1,6 @@
 const sections=document.querySelectorAll("section");
 const btnBurger =document.querySelector("#burger-menu");
-// const nav=document.querySelector("nav");
+const nav=document.querySelector("nav");
 const menu=document.querySelector(".navigation");
 const links=document.querySelectorAll(".navigation a");
 const header=document.querySelector("nav");

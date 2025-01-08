@@ -50,16 +50,15 @@ section{
 /* /////////////////////////// */
 
 nav{
-    position: fixed;
-    left: 0;
-    top: 0px;
+    position: sticky;
+    top: 0;
     width: 100%;
     padding: 10px 15px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 10;
   
 
 }
@@ -120,6 +119,7 @@ color:var(--bg);
     height: 450px;
     align-items: center;
     display: flex;
+    z-index: 1;
 }
 
 .home-content{
