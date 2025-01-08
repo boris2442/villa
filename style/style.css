@@ -52,7 +52,7 @@ section{
 nav{
     position: fixed;
     left: 0;
-    top: 0;
+    top: 0px;
     width: 100%;
     padding: 10px 15px;
     height: 80px;
@@ -60,6 +60,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+  
 
 }
 nav:active{
@@ -110,7 +111,8 @@ color:var(--bg);
 /* section menu */
 
 .home{
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -119,6 +121,7 @@ color:var(--bg);
     align-items: center;
     display: flex;
 }
+
 .home-content{
     padding-left: 35px;
 }
