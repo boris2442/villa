@@ -51,5 +51,16 @@ const sr=ScrollReveal({
   sr.reveal(".home, .copy, .footer-text, .container, .services, .about-container", {interval:200});
   
   const title=document.querySelector('h1');
-  
+
+  const typewriter= new Typewriter(title, {
+    delay:100,
+   loop:true
+  })
+
+  typewriter
+  .typeString("Villas d'Evasion <br>Votre portail vers le Luxe Abordable")
+  .pauseFor(2000)
+  .deleteAll()
+  .pauseFor(2000)
+  .start();
   
