@@ -500,7 +500,7 @@ font-size: 1.4rem;
         align-items: center;
     }
     
-     nav ul{
+     /* nav ul{
         flex-direction: column;
         position: absolute;
         right: -100%;
@@ -510,7 +510,7 @@ font-size: 1.4rem;
         box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
       
        transition: .7s ease-in-out;
-     }
+     } */
    
      .active2{
          position: absolute;
