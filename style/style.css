@@ -551,3 +551,7 @@ body::-webkit-scrollbar {
     background-color: #e0e0e0; 
   } 
    
+
+  img{
+    opacity: 0;
+  }
